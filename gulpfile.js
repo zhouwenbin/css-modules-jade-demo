@@ -18,12 +18,4 @@ gulp.task('default', function () {
         })
       ]))
       .pipe(gulp.dest('out'));
-
-    var YOUR_LOCALS = {};
-
-    gulp.src('css/*.jade')
-      .pipe(jade({
-        locals: YOUR_LOCALS
-      }))
-      .pipe(gulp.dest('out/'))
 });

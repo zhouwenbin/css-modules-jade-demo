@@ -3,7 +3,7 @@
 }
 
 .title {
-    composes: title from "css/mixins.css";
+    composes: title from "./mixins.css";
     color: green;
 }
 
